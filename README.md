@@ -2,9 +2,7 @@
 
 This repository encompasses various projects related to large language modeling, focusing on different tasks. Below is an overview of the projects and their associated information.
 
-## Code Parrot: Training an LLM for Python Code Completion Assistance
-
-- **Overview:** This project involves fine-tuning a GPT2-based model for code completion assistance in Python.
+## Code Parrot: Training GPT2 for Python Code Completion Assistance
 
 ### HuggingFace Hub
 | Demo on Spaces                                                        | Model Card                                              |
