@@ -1,41 +1,37 @@
-# large-language-models
+# Large Language Models Repository
 
-This repository contains various projects around large language modeling including:
+This repository encompasses various projects related to large language modeling, focusing on different tasks. Below is an overview of the projects and their associated information.
 
-- fine-tuning for masked language modeling using distilbert.
-- from the scratch training of GPT2 architecture for causal language modeling for python code assistance (code parrot)
-- fine-tuning distilbert for translation task: english to french translation
-- fine-tuning BERT for extraction question-answering
+## Code Parrot: Training an LLM for Python Code Completion Assistance
 
+### Overview
+This project involves fine-tuning a GPT2-based model for code completion assistance in Python.
 
+### HuggingFace Hub
+- [Demo on Spaces](https://huggingface.co/spaces/shahzebnaveed/shahzebnaveed-codeparrot-ds) (Example Input: `import matplotlib.pyplot`)
+- [Model Card](https://huggingface.co/shahzebnaveed/codeparrot-ds)
 
-**Code Parrot: Training an LLM for Python Code Completion Assistance**
+### Training
+The GPT2 network is trained from scratch using Causal Language Modeling in PyTorch and HuggingFace Transformers.
 
-HuggingFace Hub:
+### Azure Deployment
+Due to limited native support in Azure for MLFlow format with Transformers, a CUSTOM_MODEL with a custom scoring script is used. The solution leverages MLFlow PyFunc flavour to implement a core class.
 
-Demo on Spaces: https://huggingface.co/spaces/shahzebnaveed/shahzebnaveed-codeparrot-ds (Example Input: import matplotlib.pyplot)
-Model Card: https://huggingface.co/shahzebnaveed/codeparrot-ds
+## Fine-Tuning DistilBert for Masked Language Modelling on IMDB Dataset
 
-Training:
+### Model Card and Demo Inference Endpoint
+- [Model Card and Demo](https://huggingface.co/shahzebnaveed/distilbert-base-uncased-finetuned-imdb)
 
-A GPT2 network is trained from scratch using Causal Language Modelling in PyTorch and HuggingFace Transformers.
+## Fine-Tuning BERT-base-cased for Extractive Question Answering
 
-Azure Deployment:
+### Model Card and Demo Inference Endpoint
+- [Model Card and Demo](https://huggingface.co/shahzebnaveed/bert-finetuned-squad?context=My+name+is+Clara+and+I+live+in+Berkeley.&text=What%27s+my+name%3F)
 
-Although MLFlow supports Transformers, the native support in Azure for MLFlow format is limited. Therefore, a CUSTOM_MODEL with a custom scoring script has to be specified. This solution uses MLFlow PyFunc flavour to implement a core class.
+## Fine-Tuning Helsinki-NLP/opus-mt-en-fr for English to French Translation
 
-**Fine-Tuning DistilBert for Masked Language Modelling on IMDB dataset**
+### Model Card and Demo Inference Endpoint
+- [Model Card and Demo](https://huggingface.co/shahzebnaveed/marian-finetuned-kde4-en-to-fr)
 
-Model Card and Demo Inference Endpoint:  https://huggingface.co/shahzebnaveed/distilbert-base-uncased-finetuned-imdb
-
-**Fine-Tuning BERT-base-cased for extractive question answering**
-
-Model Card and Demo Inference Endpoint: https://huggingface.co/shahzebnaveed/bert-finetuned-squad?context=My+name+is+Clara+and+I+live+in+Berkeley.&text=What%27s+my+name%3F
-
-**Fine-tuning Helsinki-NLP/opus-mt-en-fr for English to French Translation**
-
-ModelModel Card and Demo Inference Endpoint: https://huggingface.co/shahzebnaveed/marian-finetuned-kde4-en-to-fr
-
-**Credits**
+## Credits
 
 Code submissions adapted for the HuggingFace NLP course.
