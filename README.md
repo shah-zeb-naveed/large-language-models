@@ -1,5 +1,13 @@
-# codeparrot
-Training an LLM for Python Code Completion Assistance
+# large-language-models
+
+This repository contains various projects around large language modeling including:
+
+- fine-tuning for causal language modeling
+- from the scratch training of GPT2 architecture for causal language modelling for python code assistance (code parrot):
+
+
+
+**Code Parrot: Training an LLM for Python Code Completion Assistance**
 
 HuggingFace Hub:
 
@@ -13,3 +21,7 @@ A GPT2 network is trained from scratch using Causal Language Modelling in PyTorc
 Azure Deployment:
 
 Although MLFlow supports Transformers, the native support in Azure for MLFlow format is limited. Therefore, a CUSTOM_MODEL with a custom scoring script has to be specified. This solution uses MLFlow PyFunc flavour to implement a core class. 
+
+**Credits**
+
+Code submissions adapted for the HuggingFace NLP course.
