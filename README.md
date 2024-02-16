@@ -32,4 +32,7 @@ This repository encompasses various projects related to large language modeling,
 |---------------------------------------------------------------------------------------------|
 | [Model Card and Demo](https://huggingface.co/shahzebnaveed/marian-finetuned-kde4-en-to-fr) |
 
-**Credits:** Code submissions adapted for the HuggingFace NLP course.
+**Credits:**
+
+- Code submissions adapted for the HuggingFace NLP course.
+- Blog posts/tutorials from https://github.com/mlabonne/llm-course
