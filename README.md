@@ -1,4 +1,4 @@
-# Large Language Models Repository 🧠
+# Large Language Models Repository
 
 This repository hosts various projects on large language modeling, focusing on diverse tasks with advanced techniques. Below is a concise overview:
 
