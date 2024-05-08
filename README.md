@@ -2,7 +2,7 @@
 
 This repository hosts various projects on large language modeling, focusing on diverse tasks with advanced techniques. Below is a concise overview:
 
-## 🚀 Top Models on [Hugging Face Hub](https://huggingface.co/shahzebnaveed)
+## 🚀 Top Models on 🤗 Hugging Face Hub [Profile Link](https://huggingface.co/shahzebnaveed)
 - [shahzebnaveed/NeuralHermes-2.5-Mistral-7B](https://huggingface.co/shahzebnaveed/NeuralHermes-2.5-Mistral-7B) 🔥 2k downloads
 - [shahzebnaveed/StarlingHermes-2.5-Mistral-7B-slerp](https://huggingface.co/shahzebnaveed/StarlingHermes-2.5-Mistral-7B-slerp) 🔥 2k downloads
 
